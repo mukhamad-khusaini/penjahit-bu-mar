@@ -17,6 +17,8 @@
                 <div class="w-[15rem] h-[20rem] || bg-slate-400"></div>
                 <div class="w-[15rem] h-[20rem] || bg-slate-400"></div>
                 <div class="w-[15rem] h-[20rem] || bg-slate-400"></div>
+                <div class="w-[15rem] h-[20rem] || bg-slate-400"></div>
+                <div class="w-[15rem] h-[20rem] || bg-slate-400"></div>
             </div>
         </section>
     </main>
