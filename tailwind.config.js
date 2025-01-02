@@ -14,6 +14,7 @@ export default {
             colors: {
                 subhead: "#474747",
                 mainblue: "#4A90DF",
+                wagreen: "#13CE5E",
             },
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
