@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Penjahit Bu Mar</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Love+Light&display=swap");
+    </style>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>
-    <header class="w-full h-[70px] || flex items-center justify-center || relative z-40 ">
-        <h1 class="text-xl">Penjahit Bu Mar</h1>
+    <header class="w-full h-[100px] || flex items-center justify-center || relative z-40 ">
+        <h1 class="text-4xl font-title">Penjahit Bu Mar</h1>
     </header>
     <main>
         <section
@@ -25,7 +29,7 @@
                 <div class="w-[15rem] h-[20rem] || bg-mainblue"></div>
             </div>
         </section>
-        <section class="h-[41rem] || flex flex-col items-center">
+        <section class="h-auto || flex flex-col items-center">
             <h2 class="text-xl font-serif italic text-subhead">Menerima Jasa</h2>
             <svg xmlns="http://www.w3.org/2000/svg" width="255" height="12" viewBox="0 0 255 12">
                 <g id="Group_6" data-name="Group 6" transform="translate(-88 -573)">
@@ -41,7 +45,7 @@
                         transform="translate(270 581)" fill="#4aa8df" />
                 </g>
             </svg>
-            <div class="w-full h-full || mt-10 || flex flex-col items-center justify-between">
+            <div class="w-full h-full || mt-10 || flex flex-col items-center justify-between gap-6">
                 <div
                     class="w-[90%] h-[129px] p-4 || flex flex-row items-center justify-between || bg-mainblue || rounded-lg">
                     <div class="w-[5rem] h-[100%] || rounded-lg || bg-white"></div>
@@ -76,7 +80,7 @@
                 </div>
             </div>
         </section>
-        <section class="h-[10rem] || flex flex-col items-center || mt-20">
+        <section class="h-auto || flex flex-col items-center || mt-16">
             <h2 class="text-xl font-serif italic text-subhead">Kontak Kami</h2>
             <svg xmlns="http://www.w3.org/2000/svg" width="255" height="12" viewBox="0 0 255 12">
                 <g id="Group_6" data-name="Group 6" transform="translate(-88 -573)">
@@ -104,8 +108,72 @@
                 </div>
             </a>
         </section>
+        <section class="h-auto || flex flex-col items-center || mt-16">
+            <h2 class="text-xl font-serif italic text-subhead">Tentang Kami</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="255" height="12" viewBox="0 0 255 12">
+                <g id="Group_6" data-name="Group 6" transform="translate(-88 -573)">
+                    <rect id="Rectangle_13" data-name="Rectangle 13" width="255" height="4" rx="2"
+                        transform="translate(88 573)" fill="#4a90df" />
+                    <rect id="Rectangle_14" data-name="Rectangle 14" width="49" height="4" rx="2"
+                        transform="translate(111 581)" fill="#4aa8df" />
+                    <rect id="Rectangle_15" data-name="Rectangle 15" width="49" height="4" rx="2"
+                        transform="translate(164 581)" fill="#4aa8df" />
+                    <rect id="Rectangle_16" data-name="Rectangle 16" width="49" height="4" rx="2"
+                        transform="translate(217 581)" fill="#4aa8df" />
+                    <rect id="Rectangle_17" data-name="Rectangle 17" width="49" height="4" rx="2"
+                        transform="translate(270 581)" fill="#4aa8df" />
+                </g>
+            </svg>
+            <p class="w-[90%] || mt-10 || text-center">
+                Proin semper fringilla felis sit amet posuere. Nullam sit amet suscipit libero. Curabitur ac urna
+                viverra, aliquet diam sagittis, semper odio. Aliquam et massa fermentum, pretium erat id, ultrices urna.
+                Vivamus aliquet turpis augue, sed elementum tortor dapibus a. Nunc at vestibulum tortor. Vestibulum
+                congue ante non justo semper elementum. Pellentesque ornare aliquam turpis ac interdum. In est libero,
+                accumsan at ligula sit amet, mattis aliquam nisi. In eleifend sapien at vestibulum varius.
+            </p>
+        </section>
+        <section class="h-auto || flex flex-col items-center || mt-16">
+            <h2 class="text-xl font-serif italic text-subhead">Moto Kami</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="255" height="12" viewBox="0 0 255 12">
+                <g id="Group_6" data-name="Group 6" transform="translate(-88 -573)">
+                    <rect id="Rectangle_13" data-name="Rectangle 13" width="255" height="4" rx="2"
+                        transform="translate(88 573)" fill="#4a90df" />
+                    <rect id="Rectangle_14" data-name="Rectangle 14" width="49" height="4" rx="2"
+                        transform="translate(111 581)" fill="#4aa8df" />
+                    <rect id="Rectangle_15" data-name="Rectangle 15" width="49" height="4" rx="2"
+                        transform="translate(164 581)" fill="#4aa8df" />
+                    <rect id="Rectangle_16" data-name="Rectangle 16" width="49" height="4" rx="2"
+                        transform="translate(217 581)" fill="#4aa8df" />
+                    <rect id="Rectangle_17" data-name="Rectangle 17" width="49" height="4" rx="2"
+                        transform="translate(270 581)" fill="#4aa8df" />
+                </g>
+            </svg>
+            <div class="w-full h-full || flex flex-col gap-12 items-center justify-start || mt-10">
+                <div class="w-[60%] h-auto || flex flex-col justify-center items-center gap-4">
+                    <div class="w-28 aspect-square || rounded-[50%] || bg-mainblue"></div>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        perferendis enim ullam
+                        optio illo quod exercitationem illum ipsam molestiae quo.</p>
+                </div>
+                <div class="w-[60%] h-auto || flex flex-col justify-center items-center gap-4">
+                    <div class="w-28 aspect-square || rounded-[50%] || bg-mainblue"></div>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        perferendis enim ullam
+                        optio illo quod exercitationem illum ipsam molestiae quo.</p>
+                </div>
+                <div class="w-[60%] h-auto || flex flex-col justify-center items-center gap-4">
+                    <div class="w-28 aspect-square || rounded-[50%] || bg-mainblue"></div>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        perferendis enim ullam
+                        optio illo quod exercitationem illum ipsam molestiae quo.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="w-full h-auto py-3 || mt-16 || bg-mainblue">
+        <p class="font-serif italic || text-center text-sm text-white ">&copy; Copyright 2025 | Oleh Anak Penjahit Bu
+            Mar</p>
+    </footer>
 
     <script src="js/slider.js"></script>
 </body>

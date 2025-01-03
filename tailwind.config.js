@@ -18,6 +18,7 @@ export default {
             },
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                title: ['"Love Light"', "serif"],
             },
         },
     },
