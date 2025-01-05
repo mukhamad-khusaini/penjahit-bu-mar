@@ -15,7 +15,7 @@
 
 <body>
     <header class="w-full h-[100px] || flex items-center justify-center || relative z-40 ">
-        <h1 class="text-4xl font-title">Penjahit Bu Mar</h1>
+        <h1 class="text-4xl font-title">Penjahit Bu Marr</h1>
     </header>
     <main>
         <section
