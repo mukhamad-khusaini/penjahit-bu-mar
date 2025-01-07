@@ -57,36 +57,46 @@
             </svg>
             <div class="w-full h-full || mt-10 || flex flex-col items-center justify-between gap-6">
                 <div
-                    class="w-[90%] h-[129px] p-4 || flex flex-row items-center justify-between || bg-mainblue || rounded-lg">
-                    <div class="w-[5rem] h-[100%] || rounded-lg || bg-white"></div>
-                    <p class="w-[15.5rem] text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dignissimos dolorem
-                        perspiciatis, atque
-                        iure hic autem!</p>
+                    class="w-[90%] h-[150px] p-4 || flex flex-row items-center justify-between || bg-mainblue || rounded-lg">
+                    <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-white">
+                        <img class="w-full h-full" src="/images/permak.jpg" alt="permak">
+                    </div>
+                    <div class="w-[65%]">
+                        <h4 class="text-md text-white font-bold">Permak Baju / Celana</h4>
+                        <p class=" text-white">Menerima jasa permak sesuai keinginan anda
+                        </p>
+                    </div>
                 </div>
                 <div
-                    class="w-[90%] h-[129px] p-4 || flex flex-row-reverse items-center justify-between || bg-white border-[1px] border-mainblue || rounded-lg">
-                    <div class="w-[5rem] h-[100%] || rounded-lg || bg-mainblue"></div>
-                    <p class="w-[15.5rem] text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                        dolorem
-                        perspiciatis, atque
-                        iure hic autem!</p>
+                    class="w-[90%] h-[150px] p-4 || flex flex-row-reverse items-center justify-between || bg-white border-[1px] border-mainblue || rounded-lg">
+                    <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-mainblue">
+                        <img class="w-full h-full" src="/images/jahit-baju.jpg" alt="jahit">
+                    </div>
+                    <div class="w-[65%] ">
+                        <h2 class="text-md text-end font-bold">Jahit Baju / Celana</h2>
+                        <p class="text-end">Menerima berbagai <i>request</i> model jahitan baju atau celana</p>
+                    </div>
                 </div>
                 <div
-                    class="w-[90%] h-[129px] p-4 || flex flex-row items-center justify-between || bg-mainblue || rounded-lg">
-                    <div class="w-[5rem] h-[100%] || rounded-lg || bg-white"></div>
-                    <p class="w-[15.5rem] text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dignissimos dolorem
-                        perspiciatis, atque
-                        iure hic autem!</p>
+                    class="w-[90%] h-[150px] p-4 || flex flex-row items-center justify-between || bg-mainblue || rounded-lg">
+                    <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-white">
+                        <img class="w-full h-full" src="/images/seragam.jpg" alt="seragam">
+                    </div>
+                    <div class="w-[65%]">
+                        <h4 class="text-md text-white font-bold">Jahit Seragam</h4>
+                        <p class=" text-white">Menerima permintaan jahit seragam segala ukuran
+                        </p>
+                    </div>
                 </div>
                 <div
-                    class="w-[90%] h-[129px] p-4 || flex flex-row-reverse items-center justify-between || bg-white border-[1px] border-mainblue || rounded-lg">
-                    <div class="w-[5rem] h-[100%] || rounded-lg || bg-mainblue"></div>
-                    <p class="w-[15.5rem] text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-                        dolorem
-                        perspiciatis, atque
-                        iure hic autem!</p>
+                    class="w-[90%] h-[150px] p-4 || flex flex-row-reverse items-center justify-between || bg-white border-[1px] border-mainblue || rounded-lg">
+                    <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-mainblue">
+                        <img class="w-full h-full" src="/images/wolsum.jpg" alt="wolsum">
+                    </div>
+                    <div class="w-[65%] ">
+                        <h2 class="text-md text-end font-bold">Wolsum</h2>
+                        <p class="text-end">Menerima jasa wolsum segala pakaian anda</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -135,11 +145,11 @@
                 </g>
             </svg>
             <p class="w-[90%] || mt-10 || text-center">
-                Proin semper fringilla felis sit amet posuere. Nullam sit amet suscipit libero. Curabitur ac urna
-                viverra, aliquet diam sagittis, semper odio. Aliquam et massa fermentum, pretium erat id, ultrices urna.
-                Vivamus aliquet turpis augue, sed elementum tortor dapibus a. Nunc at vestibulum tortor. Vestibulum
-                congue ante non justo semper elementum. Pellentesque ornare aliquam turpis ac interdum. In est libero,
-                accumsan at ligula sit amet, mattis aliquam nisi. In eleifend sapien at vestibulum varius.
+                Penjahit Bu Mar, yang didirikan oleh Ibu Marfuah pada tahun 1997 di Dusun Turgogede, Harjobinangun,
+                Pakem, Sleman, Yogyakarta, menawarkan berbagai layanan jahit berkualitas. Dengan pengalaman
+                bertahun-tahun, Ibu Mar dikenal karena keahliannya dalam memperbaiki, mengubah, dan menjahit pakaian
+                baru sesuai pesanan pelanggan. Terletak di RT 03/RW 22, Penjahit Bu Mar siap memenuhi kebutuhan jahit
+                Anda dengan hasil yang memuaskan.
             </p>
         </section>
         <section class="h-auto || flex flex-col items-center || mt-16">
@@ -160,22 +170,22 @@
             </svg>
             <div class="w-full h-full || flex flex-col gap-12 items-center justify-start || mt-10">
                 <div class="w-[60%] h-auto || flex flex-col justify-center items-center gap-4">
-                    <div class="w-28 aspect-square || rounded-[50%] || bg-mainblue"></div>
-                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                        perferendis enim ullam
-                        optio illo quod exercitationem illum ipsam molestiae quo.</p>
+                    <div class="w-28 aspect-square || rounded-[50%]">
+                        <img src="/images/amanah.png" alt="amanah">
+                    </div>
+                    <p class="text-center">Berpegang Teguh Pada Amanah</p>
                 </div>
                 <div class="w-[60%] h-auto || flex flex-col justify-center items-center gap-4">
-                    <div class="w-28 aspect-square || rounded-[50%] || bg-mainblue"></div>
-                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                        perferendis enim ullam
-                        optio illo quod exercitationem illum ipsam molestiae quo.</p>
+                    <div class="w-28 aspect-square || rounded-[50%]">
+                        <img src="/images/kebutuhan.png" alt="kebutuhan">
+                    </div>
+                    <p class="text-center">Selalu Mengutamakan Kebutuhan Pelanggan</p>
                 </div>
                 <div class="w-[60%] h-auto || flex flex-col justify-center items-center gap-4">
-                    <div class="w-28 aspect-square || rounded-[50%] || bg-mainblue"></div>
-                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                        perferendis enim ullam
-                        optio illo quod exercitationem illum ipsam molestiae quo.</p>
+                    <div class="w-28 aspect-square || rounded-[50%]">
+                        <img src="/images/hati.png" alt="hati">
+                    </div>
+                    <p class="text-center">Melayani Dengan Sepenuh Hati</p>
                 </div>
             </div>
         </section>
