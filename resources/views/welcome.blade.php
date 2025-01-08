@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="text-[16px]" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -19,22 +19,22 @@
     </header>
     <main>
         <section
-            class="h-[417px] || relative overflow-hidden || before:contents-[''] before:w-[50rem] before:h-[10rem] before:bg-white before:absolute before:rounded-[50%] before:top-[-6rem] before:left-1/2 before:transform before:-translate-x-1/2 z-10 || after:contents-[''] after:w-[50rem] after:h-[10rem] after:bg-white after:absolute after:rounded-[50%] after:bottom-[-6rem] after:left-1/2 after:transform after:-translate-x-1/2">
-            <div class="flex items-center justify-center gap-10 || w-[80rem] h-full || absolute -z-10 || duration-700 transition-all translate-x-[-11%]"
+            class="h-[417px] w-screen || relative overflow-hidden || before:contents-[''] before:w-[50rem] before:h-[10rem] before:bg-white before:absolute before:rounded-[50%] before:top-[-6rem] before:left-1/2 before:transform before:-translate-x-1/2 z-10 || after:contents-[''] after:w-[50rem] after:h-[10rem] after:bg-white after:absolute after:rounded-[50%] after:bottom-[-6rem] after:left-1/2 after:transform after:-translate-x-1/2">
+            <div class="carousel-inner || flex items-center justify-center gap-10 || w-[80rem] h-full || absolute -z-10 || duration-700 transition-all "
                 id="slider">
-                <div class="w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
                     <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
                 </div>
-                <div class="w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
                     <img class="w-full h-full" src="/images/coklat.jpg" alt="contoh">
                 </div>
-                <div class="w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
                     <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
                 </div>
-                <div class="w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
                     <img class="w-full h-full" src="/images/coklat.jpg" alt="contoh">
                 </div>
-                <div class="w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
                     <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
                 </div>
             </div>
@@ -59,7 +59,7 @@
                 <div
                     class="w-[90%] h-[150px] p-4 || flex flex-row items-center justify-between || bg-mainblue || rounded-lg">
                     <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-white">
-                        <img class="w-full h-full" src="/images/permak.jpg" alt="permak">
+                        <img class="object-cover w-full h-full" src="/images/permak.jpg" alt="permak">
                     </div>
                     <div class="w-[65%]">
                         <h4 class="text-md text-white font-bold">Permak Baju / Celana</h4>
@@ -70,7 +70,7 @@
                 <div
                     class="w-[90%] h-[150px] p-4 || flex flex-row-reverse items-center justify-between || bg-white border-[1px] border-mainblue || rounded-lg">
                     <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-mainblue">
-                        <img class="w-full h-full" src="/images/jahit-baju.jpg" alt="jahit">
+                        <img class="object-cover w-full h-full" src="/images/jahit-baju.jpg" alt="jahit">
                     </div>
                     <div class="w-[65%] ">
                         <h2 class="text-md text-end font-bold">Jahit Baju / Celana</h2>
@@ -80,7 +80,7 @@
                 <div
                     class="w-[90%] h-[150px] p-4 || flex flex-row items-center justify-between || bg-mainblue || rounded-lg">
                     <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-white">
-                        <img class="w-full h-full" src="/images/seragam.jpg" alt="seragam">
+                        <img class="object-cover w-full h-full" src="/images/seragam.jpg" alt="seragam">
                     </div>
                     <div class="w-[65%]">
                         <h4 class="text-md text-white font-bold">Jahit Seragam</h4>
@@ -91,7 +91,7 @@
                 <div
                     class="w-[90%] h-[150px] p-4 || flex flex-row-reverse items-center justify-between || bg-white border-[1px] border-mainblue || rounded-lg">
                     <div class="w-[30%] h-[100%] overflow-hidden || rounded-lg || bg-mainblue">
-                        <img class="w-full h-full" src="/images/wolsum.jpg" alt="wolsum">
+                        <img class="object-cover w-full h-full" src="/images/wolsum.jpg" alt="wolsum">
                     </div>
                     <div class="w-[65%] ">
                         <h2 class="text-md text-end font-bold">Wolsum</h2>
