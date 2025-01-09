@@ -20,21 +20,30 @@
     <main>
         <section
             class="h-[417px] w-screen || relative overflow-hidden || before:contents-[''] before:w-[50rem] before:h-[10rem] before:bg-white before:absolute before:rounded-[50%] before:top-[-6rem] before:left-1/2 before:transform before:-translate-x-1/2 z-10 || after:contents-[''] after:w-[50rem] after:h-[10rem] after:bg-white after:absolute after:rounded-[50%] after:bottom-[-6rem] after:left-1/2 after:transform after:-translate-x-1/2">
-            <div class="carousel-inner || flex items-center justify-center gap-10 || w-[80rem] h-full || absolute -z-10 || duration-700 transition-all "
+            <div class="carousel-inner || flex items-center justify-center gap-10 || w-auto h-full px-5 || absolute -z-10 || duration-700 transition-all "
                 id="slider">
-                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
                     <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
                 </div>
-                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
                     <img class="w-full h-full" src="/images/coklat.jpg" alt="contoh">
                 </div>
-                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
                     <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
                 </div>
-                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
                     <img class="w-full h-full" src="/images/coklat.jpg" alt="contoh">
                 </div>
-                <div class="carousel-item || w-[15rem] h-[20rem] || bg-mainblue">
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
+                    <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
+                </div>
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
+                    <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
+                </div>
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
+                    <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
+                </div>
+                <div class="carousel-item || w-[15rem] h-[20rem] || flex items-center justify-center || bg-mainblue">
                     <img class="w-full h-full" src="/images/biru.jpg" alt="contoh">
                 </div>
             </div>

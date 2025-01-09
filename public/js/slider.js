@@ -26,18 +26,44 @@
 //     }
 // }, 3000);
 
-let indexReferer = 0;
-const CarouselInner = document.querySelector(".carousel-inner");
-const CarouselItems = document.querySelectorAll(".carousel-item");
+// let indexReferer = 0;
+// const CarouselInner = document.querySelector(".carousel-inner");
+// const CarouselItems = document.querySelectorAll(".carousel-item");
 
-function carouselUpdate() {
-    const Offset = -indexReferer * (15 + 2.5) + (window.innerWidth / 2 - 7.5); // 15rem item width + 2.5rem gap
-    CarouselInner.style.transform = `translateX(${Offset}rem)`;
+// function carouselUpdate() {
+//     const Offset = -indexReferer * (15 + 2.5) + (window.innerWidth / 2 - 7.5); // 15rem item width + 2.5rem gap
+//     CarouselInner.style.transform = `translateX(${Offset}rem)`;
+// }
+
+// function nextItem() {
+//     indexReferer = (indexReferer + 1) % CarouselItems.length;
+//     carouselUpdate();
+// }
+
+// setInterval(nextItem, 3000);
+
+let indexReferer = 1;
+let carouselInner = document.querySelector(".carousel-inner");
+let carouselItems = document.querySelectorAll(".carousel-item");
+let carouselInnerRect = carouselInner.getBoundingClientRect();
+
+carouselInner.style.transform = `translateX(${
+    innerWidth / 2 -
+    (carouselInner.clientWidth / carouselItems.length / 2) * indexReferer
+}px)`;
+
+function slider() {
+    let whichCenter =
+        (carouselInner.clientWidth / carouselItems.length / 2) * indexReferer;
+
+    if (indexReferer == carouselItems.length * 2 + 1) {
+        indexReferer = 1;
+    } else {
+        carouselInner.style.transform = `translateX(${
+            innerWidth / 2 - whichCenter
+        }px)`;
+        indexReferer += 2;
+    }
 }
 
-function nextItem() {
-    indexReferer = (indexReferer + 1) % CarouselItems.length;
-    carouselUpdate();
-}
-
-setInterval(nextItem, 3000);
+setInterval(slider, 3000);
