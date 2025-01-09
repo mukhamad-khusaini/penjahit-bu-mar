@@ -42,14 +42,13 @@
 
 // setInterval(nextItem, 3000);
 
-let indexReferer = 1;
+let indexReferer = 3;
 let carouselInner = document.querySelector(".carousel-inner");
 let carouselItems = document.querySelectorAll(".carousel-item");
 let carouselInnerRect = carouselInner.getBoundingClientRect();
 
 carouselInner.style.transform = `translateX(${
-    innerWidth / 2 -
-    (carouselInner.clientWidth / carouselItems.length / 2) * indexReferer
+    innerWidth / 2 - carouselInner.clientWidth / carouselItems.length / 2
 }px)`;
 
 function slider() {
@@ -57,7 +56,11 @@ function slider() {
         (carouselInner.clientWidth / carouselItems.length / 2) * indexReferer;
 
     if (indexReferer == carouselItems.length * 2 + 1) {
-        indexReferer = 1;
+        carouselInner.style.transform = `translateX(${
+            innerWidth / 2 -
+            carouselInner.clientWidth / carouselItems.length / 2
+        }px)`;
+        indexReferer = 3;
     } else {
         carouselInner.style.transform = `translateX(${
             innerWidth / 2 - whichCenter
